@@ -77,4 +77,7 @@ function deleteNodeAt(index, list, collection)
   let prevAddress = addressAt(index-1,list,collection)
   let currNode = nodeAt(index,list,collection)
   
+  prevNode.next = currNode.next;
+  collection[prevAddress] = prevNode
+  
 }
