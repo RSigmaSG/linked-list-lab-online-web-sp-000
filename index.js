@@ -73,5 +73,6 @@ function insertNodeAt(index, address, list, collection)
 
 function deleteNodeAt(index, list, collection)
 {
-  
+  let prevNode = nodeAt(index-1,list,collection)
+  let prevAddress = addressAt(index-1,list,collection)
 }
