@@ -60,7 +60,7 @@ function insertNodeAt(index, address, list, collection)
   let storeAddress = addressAt(index,list,collection)
   
   console.log(prevNode, storeAddress)
-  console.log(collection[prevAddress.next], collection[address.next])
+  console.log(collection[storeAddress.next], collection[address.next])
   
   collection[prevNode.next] = address
   collection[address.next] = storeAddress
