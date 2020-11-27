@@ -60,8 +60,8 @@ function insertNodeAt(index, address, list, collection)
   let prevAddress = addressAt(index-1,list,collection)
   let newNode = collection[address]
   
-  address.next = prevNode.next
-  collection[address] = address
+  newNode.next = prevNode.next
+  collection[address] = newNode
   prevNode.next = address
   collection[prevAddress] = prevNode
   
