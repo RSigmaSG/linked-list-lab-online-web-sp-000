@@ -71,7 +71,7 @@ function insertNodeAt(index, address, list, collection)
   
 }
 
-function deleteNodeAt(index)
+function deleteNodeAt(index, list, collection)
 {
   
 }
