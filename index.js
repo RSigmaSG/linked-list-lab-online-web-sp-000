@@ -63,7 +63,7 @@ function insertNodeAt(index, address, list, collection)
   console.log(collection[prevAddress.next], collection[address.next])
   
   collection[prevNode.next] = address
-  collection[address.next] = collection[storeNode.next]
+  collection[address.next] = 
   
   console.log(collection)
   console.log("\n\n\n")
